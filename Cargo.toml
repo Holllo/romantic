@@ -1,0 +1,20 @@
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "romantic"
+description = "Roman numeral toolkit"
+authors = ["Holllo <helllo@holllo.cc>"]
+version = "0.0.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Holllo/romantic"
+edition = "2021"
+
+[lib]
+path = "source/lib.rs"
+
+[dependencies]
+num = "0.4.0"
+thiserror = "1.0.30"
+
+[dev-dependencies]
+test-case = "2.0.2"
