@@ -4,7 +4,7 @@
 name = "romantic"
 description = "Roman numeral toolkit"
 authors = ["Holllo <helllo@holllo.cc>"]
-version = "0.0.0"
+version = "0.1.0"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Holllo/romantic"
 edition = "2021"
